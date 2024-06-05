@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+form div {
+    flex: 1 1 45%;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tbody tr td:nth-child(2).internet {
+    background-color: #FFDDC1;
+}
+
+tbody tr td:nth-child(2).pasanaku {
+    background-color: #FFC1C1;
+}
+
+tbody tr td:nth-child(2).guarderia_adrian {
+    background-color: #FFB1C1;
+}
+
+tbody tr td:nth-child(2).pasajes_adrian {
+    background-color: #FFA1C1;
+}
+
+tbody tr td:nth-child(2).ian {
+    background-color: #FF91C1;
+}
+
+tbody tr td:nth-child(2).comida {
+    background-color: #FF81C1;
+}
+
+tbody tr td:nth-child(2).pasajes_efrain {
+    background-color: #FF71C1;
+}
+
+tbody tr td:nth-child(2).comida_efrain {
+    background-color: #FF61C1;
+}
+
+tbody tr td:nth-child(2).entrada {
+    background-color: #C1FFDD;
+}
